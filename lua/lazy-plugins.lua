@@ -1,5 +1,4 @@
 require('lazy').setup {
-
   require 'kickstart.plugins.onedark',
   require 'kickstart.plugins.nvim-lsp',
   require 'kickstart.plugins.telescope',
@@ -20,6 +19,7 @@ require('lazy').setup {
   require 'kickstart.plugins.lint',
   require 'kickstart.plugins.bullets',
   require 'kickstart.plugins.vim-sleuth',
+  require 'kickstart.plugins.go',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
