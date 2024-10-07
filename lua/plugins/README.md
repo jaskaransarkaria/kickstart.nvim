@@ -8,7 +8,7 @@ Plugins can be configured to run Lua code when they are loaded using the init bl
 
 ## LSP vs treesitter
 
-If you're wondering about lsp vs treesitter, you can check out the wonderfully and elegantly composed help section, `:help lsp-vs-treesitter`
+LSPs understands code a project level so you can rename across files, find deinitions in external libraries etc. whereas Treesitter is a language parsing library which makes it good at understanding the contents of the current buffer with things like syntax highlighting, simple goto defs, scope analysis etc. see `:help lsp-vs-treesitter` for more.
 
 The plugins I use are listed and briefly explained here:
 
