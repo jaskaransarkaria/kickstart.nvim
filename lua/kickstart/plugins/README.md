@@ -136,10 +136,10 @@ Useful Go plugin with lots of features, including snippets, generating tests and
 
 If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`
 
-#### navarasu/onedark.nvim
+#### [navarasu/onedark.nvim](https://github.com/navarasu/onedark.nvim)
 
-Dark and Light Themes for neovim >= 0.5 based on Atom One Dark & Atom One Light theme written in lua with TreeSitter syntax highlight [repo](https://github.com/navarasu/onedark.nvim)
+Dark and Light Themes for neovim >= 0.5 based on Atom One Dark & Atom One Light theme written in lua with TreeSitter syntax highlight
 
-#### folke/tokyonight.nvim
+#### [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
 
-A clean dark Neovim theme written in Lua [repo](https://github.com/folke/tokyonight.nvim)
+A clean dark Neovim theme written in Lua
