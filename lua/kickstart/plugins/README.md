@@ -12,31 +12,6 @@ If you're wondering about lsp vs treesitter, you can check out the wonderfully a
 
 The plugins I use are listed and briefly explained here:
 
-- nvim-autopairs
-- conform
-- nvim-dap
-- gitsigns
-- indent-line
-- lint
-- mini
-- nvim-cmp
-- nvim-lspconfig
-- nvim-tree
-- onedark
-- telescope
-- treesitter
-- which-key
-- lazy
-- vim-sleuth
-- lazydev
-- luvit-meta
-- tokyonight
-- todo-comments
-- williamboman/mason
-- bullets.vim
-- j-hui/fidget.nvim (dependency) -- extensible UI for Neovim notifications and LSP progress messages
-- plenary (dependency) -- library of lua fns
-
 ## [windwp/nvim-autopairs](https://github.com/windwp/nvim-autopairs)
 
 A super powerful autopair plugin for Neovim that supports multiple characters
