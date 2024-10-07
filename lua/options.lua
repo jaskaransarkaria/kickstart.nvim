@@ -59,6 +59,47 @@ vim.opt.inccommand = 'split'
 vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 20
+
+-- by default timoutlen is 1000ms
+vim.opt.timeoutlen = 500
+
+--faster completion
+vim.opt.updatetime = 300
+
+-- We don't need to see things like -- INSERT -- anymore
+vim.opt.showmode = false
+
+-- comma separated line rule for character width
+vim.opt.colorcolumn = '80,120'
+
+-- minimum num of columns reserved for the gutter
+vim.opt.numberwidth = 2
+
+-- always display the status line
+vim.opt.laststatus = 0
+
+-- so you can see `` in markdown files
+vim.opt.conceallevel = 0
+
+-- more space for displaying messages
+vim.opt.cmdheight = 2
+
+-- show cursor position at all times
+vim.opt.ruler = true
+
+-- insert 2 spaces for a tab
+vim.opt.tabstop = 2
+
+-- from :help vim.opt
+-- vim.opt.formatoptions:append("j")  -- +=
+-- vim.opt.formatoptions:prepend("j") -- ^=
+-- vim.opt.formatoptions:remove("j")  -- -=
+
+-- stop newline continuation for comments
+vim.opt.formatoptions:remove 'cro'
+
+-- treat dash separated words as a text object
+vim.opt.iskeyword:append '-'
 
 -- vim: ts=2 sts=2 sw=2 et

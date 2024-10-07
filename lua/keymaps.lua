@@ -31,4 +31,16 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right win
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
+-- Easy CAPS -- ctrl +u to capitalise word
+vim.keymap.set('i', '<C-u>', '<ESC>viwUi', { desc = 'Capitalise letter from insert mode' })
+vim.keymap.set('n', '<C-u>', 'viwU<ESC>', { desc = 'Capitalise letter from normal mode' })
+
+-- TAB in general mode will move to text buffer
+vim.keymap.set('n', '<Tab>', '<cmd>bnext<CR>', { desc = 'move to next buffer' })
+vim.keymap.set('n', '<S-Tab>', '<cmd>bprevious<CR>', { desc = 'move to next buffer' })
+
+-- Better tabbing -- holds the tab highlight until you're finished tabbing
+vim.keymap.set('v', '<', '<gv', { desc = 'indent highlighted block left' })
+vim.keymap.set('v', '>', '>gv', { desc = 'indent highlighted block right' })
+
 -- vim: ts=2 sts=2 sw=2 et
